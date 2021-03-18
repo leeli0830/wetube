@@ -1,0 +1,69 @@
+Wetube Note
+
+1. NPM (Node Package Manager) - All nodeJS packages are uploaded to NPM
+								Do not have to take care of individual versions of nodeJS packages by using npm.
+
+2. Begin a project using "npm init" command
+
+3. Express (Server) - install using "npm install express"
+
+4. When you install something using NPM, make sure you are in the location that has "package.json"
+
+5. "package.json" includes the list of packages that are needed for the project
+
+   => no need to give "node_modules" to collaborate with others
+
+   => "npm istall" will automatically install the packages.
+
+6. Things in "node_module" are installed by npm - you don't have to worry about this
+
+7. ".gitignore" includes the list of files that won't be uploaded to git
+   You can always use "nodeJS default gitignore
+   package-lock.json has to be included to gitignore
+
+8. The commands can be used on terminal can be on package.json as script
+
+9. GET:
+   POST:
+
+10. Request object 
+    Responce object
+
+11. Babel convert the latest version of Javascript into a traditional javascript
+    Install Babel using "npm install @babel/node" then "npm install @babel/preset-env"
+    Create ".babelrc" file for configuration
+
+12. "nodemon" is used to reboot the server every time we save the files
+    "npm install nodemon -D" will install the package
+
+13. devDependencies are for developer not for the project
+
+14. Middleware 
+
+15. Morgan is a logging package ( a kind of middleware). 
+
+16. Helmet is a middleware that helps the project improve security.
+    
+17. body-parser: Checks what kind of information users using or sending
+    cookie-parser
+
+18. M(Module): data
+    V(View): how does the data look
+    C(Controller): function that looks for the data 
+
+19. PUG: One of the ways that you can handle HMTL on EXPRESS (View Engine)
+    
+    => Names of files have to be in lower case.
+
+    => layouts: pre-made templates (Name of the folder can be vary)
+       parials: partial of views
+
+    => "block content" is where other files will be located.
+
+    => To use pre-made templetes, each file has to include "extends location of the template on top of the file. 
+
+20. localsMiddleware enables local variable to be used as global variable
+
+xx. "Multer" is a middleware that returns URL of files
+
+xx. eslint is a nodejs package that tells you errors
