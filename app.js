@@ -11,7 +11,7 @@ import { localsMiddleware } from "./middlewares";
 const app = express();
 
 // Middlewares are here
-app.use(helmet());
+app.use(helmet({ contentSecurityPolicy: false }));
 app.set("view engine", "pug");
 app.use(cookieParser());
 app.use(bodyParser.json());
